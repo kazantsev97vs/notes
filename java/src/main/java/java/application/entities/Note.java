@@ -3,9 +3,9 @@ package java.application.entities;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
-
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "note")
@@ -25,5 +25,16 @@ public class Note {
     private Date creationDate;
 
     private Date lastModifiedDate;
+
+    @ManyToMany(cascade = CascadeType.ALL)
+    private List<Label> labelList;
+
+    @OneToOne
+    @NonNull
+    private Color backgroundColor;
+
+    @OneToOne
+    @NonNull
+    private Color color;
 
 }
