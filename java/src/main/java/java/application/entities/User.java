@@ -33,4 +33,10 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Note> noteList;
 
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<Label> labelList;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Color> colorList;
+
 }
