@@ -6,15 +6,13 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-import spring.gradle.project.entities.User;
-
+import java.application.entities.User;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.function.Function;
-
-import static spring.gradle.project.model.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
-import static spring.gradle.project.model.Constants.SIGNING_KEY;
+import static java.application.models.Constants.ACCESS_TOKEN_VALIDITY_SECONDS;
+import static java.application.models.Constants.SIGNING_KEY;
 
 @Component
 public class JwtTokenUtil implements Serializable {
