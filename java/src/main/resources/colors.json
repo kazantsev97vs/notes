@@ -1,0 +1,39 @@
+[
+  {
+    "color": "default",
+    "name": "default"
+  },
+  {
+    "color": "white",
+    "name": "white"
+  },
+  {
+    "color": "black",
+    "name": "black"
+  },
+  {
+    "color":  "red",
+    "name": "red"
+  },
+  {
+    "color": "orange",
+    "name": "orange"
+  },
+  {
+    "color": "yellow",
+    "name": "yellow"
+  },
+  {
+    "color":  "green",
+    "name": "green"
+  },
+
+  {
+    "color": "blue",
+    "name": "blue"
+  },
+  {
+    "color": "purple",
+    "name": "purple"
+  }
+]
