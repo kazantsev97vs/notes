@@ -1,0 +1,52 @@
+.error {
+    background: #ff000066;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.login {
+    margin: 100px auto;
+    width: fit-content;
+}
+
+
+.login form {
+    width: fit-content;
+
+    font-size: 18px;
+
+}
+
+.login form input {
+    background-color: rgba(155, 155, 155, 0.11) !important;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+.login form button {
+
+    margin-top: 20px;
+    float: right;
+
+    user-select: none;
+    margin-right: 8px;
+
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+
+    cursor: pointer;
+    display: inline-block;
+    outline: none!important;
+
+    background: transparent;
+
+}
+
+.login form button:hover {
+    background: rgba(255, 255, 255, 0.03);
+}

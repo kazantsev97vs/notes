@@ -1,0 +1,63 @@
+.palette {
+    position: relative;
+    z-index: 103;
+    display: flex;
+    padding: 5px;
+}
+
+    .place {
+        position: absolute;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .palette-block {
+        position: absolute;
+
+        -webkit-transition-duration: .218s;
+        -webkit-transition-property: background,border,opacity,-webkit-box-shadow,-webkit-transform;
+        transition-property: background,border,opacity,box-shadow,transform;
+        -webkit-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
+
+        background-color: rgba(32, 33, 36, 0.9);
+        border-radius: 4px;
+
+        transition-duration: 1s;
+
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6), 0 2px 6px 2px rgba(0,0,0,0.302);
+    }
+
+        .palette-row {
+            display: flex;
+        }
+
+            .palette-item {
+                position: relative;
+                width: 20px;
+                height: 20px;
+
+                border: 1px solid black;
+                border-radius: 50%;
+
+                margin: 10px;
+
+            }
+
+                .description {
+                    position: absolute;
+                    z-index: 104;
+                    top: 100%;
+                    left: -50%;
+                    width: 20px;
+
+                    background-color: #202124;
+                    padding: 10px;
+                }
+
+        .palette-item:hover {
+            border: 3px solid white;
+            margin: 8px;
+        }
+
+
+

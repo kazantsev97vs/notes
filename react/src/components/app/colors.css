@@ -1,0 +1,41 @@
+/* COLORS ---------------------------------------- */
+
+    /* BACKGROUND COLOR */
+    .white-background-color {background-color: white}
+    .black-background-color {background-color: black}
+    .red-background-color {background-color: red}
+    .orange-background-color {background-color: orange}
+    .yellow-background-color {background-color: yellow}
+    .green-background-color {background-color: green}
+    .blue-background-color {background-color: blue}
+    .purple-background-color {background-color: purple}
+    .default-background-color {background-color: #202124;}
+
+
+    /* COLOR AND PLACEHOLDER-COLOR */
+    .white-color {color: white}
+    .white-color textarea::placeholder {color: white}
+
+    .black-color {color: black}
+    .black-color textarea::placeholder {color: black}
+
+    .red-color {color: red}
+    .red-color textarea::placeholder {color: red}
+
+    .orange-color {color: orange}
+    .orange-color textarea::placeholder {color: orange}
+
+    .yellow-color {color: yellow}
+    .yellow-color textarea::placeholder {color: yellow}
+
+    .green-color {color: green}
+    .green-color textarea::placeholder {color: green}
+
+    .blue-color {color: blue}
+    .blue-color textarea::placeholder {color: blue}
+
+    .purple-color {color: purple}
+    .purple-color textarea::placeholder {color: purple}
+
+    .default-color {color: #202124}
+    .default-color textarea::placeholder {color: #202124}

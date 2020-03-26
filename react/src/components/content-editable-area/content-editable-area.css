@@ -1,0 +1,19 @@
+
+.content-editable-area-wrapper {
+    position: relative;
+}
+
+.content-editable-area {
+    position: relative;
+    z-index: 101;
+
+    padding: 5px 7px;
+    line-height: 28px;
+    font-size: 20px;
+    outline: none;
+}
+
+.content-editable-area.placeholder {
+    position: absolute;
+    z-index: 100;
+}

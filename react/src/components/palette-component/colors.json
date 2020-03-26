@@ -1,0 +1,39 @@
+[
+  {
+    "color": "default",
+    "text": "По умолчанию"
+  },
+  {
+    "color": "white",
+    "text": "Белый"
+  },
+  {
+    "color": "black",
+    "text": "Черный"
+  },
+  {
+    "color":  "red",
+    "text": "Красный"
+  },
+  {
+    "color": "orange",
+    "text": "Оранжевый"
+  },
+  {
+    "color": "yellow",
+    "text": "Жёлтый"
+  },
+  {
+    "color":  "green",
+    "text": "Зелёный"
+  },
+
+  {
+    "color": "blue",
+    "text": "Синий"
+  },
+  {
+    "color": "purple",
+    "text": "Фиолетовый"
+  }
+]

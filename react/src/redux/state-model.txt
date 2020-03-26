@@ -1,0 +1,26 @@
+
+state {
+
+    // Данные пользователя
+    user : {
+
+    }
+
+    // Подшружаемые заметки
+    notes : [],
+
+    // Заметка, позволяющая создавать новые заметки
+    note : new NoteModel(),
+
+    // Здесь что-то про авторизацию
+    auth : ?
+
+
+    controllers : {
+
+        authController
+
+        noteController
+
+    }
+}

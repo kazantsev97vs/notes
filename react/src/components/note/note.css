@@ -1,0 +1,155 @@
+.note {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /*overflow: hidden;*/
+    position: relative;
+
+    border: 1px solid #5f6368;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-transition-duration: .218s;
+    transition-duration: .218s;
+    -webkit-transition-property: background,border,opacity,-webkit-box-shadow,-webkit-transform;
+    transition-property: background,border,opacity,box-shadow,transform;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+
+    background-color: #202124;
+
+    -webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.20);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6), 0 2px 6px 2px rgba(0,0,0,0.302);
+
+    min-width: 300px;
+    max-width: 600px;
+
+    margin: 20px auto;
+    padding: 15px 15px 0px 15px;
+}
+
+.note:hover {
+    /*border: 3px solid #202124;*/
+    box-shadow: 0 1px 10px 2px rgba(0,0,0,0.6), 0 2px 6px 2px rgba(0,0,0,0.302);
+}
+
+    .note > div {
+        margin-bottom: 10px;
+    }
+
+    .note:hover .drop-note {
+        display: block;
+    }
+
+    .drop-note {
+        position: absolute;
+        display: none;
+        box-sizing: border-box;
+        top: 7.5px;
+        right: 15px;
+        background: none;
+        border: none;
+        border-radius: 50%;
+        padding: 7px;
+        outline: none;
+        cursor: pointer;
+        z-index: 102;
+    }
+
+    .drop-note:hover {
+        background: rgba(255, 255, 255, 0.03);
+    }
+
+    .drop-note .rubbish {
+        height: 20px;
+        width: 20px;
+        padding: 7px;
+    }
+
+    .note-header {
+
+    }
+
+    .note-body {}
+
+    .note-footer {}
+
+        .footer-elements {
+            display: flex;
+            justify-content: space-between;
+        }
+            .footer-elements-left {
+                display: flex;
+            }
+
+                .note-labels {
+
+                }
+                    .note-label:first-child {
+                        margin-left: 0;
+                    }
+                    .note-label {
+                        font-size: 12px;
+                        margin: 10px;
+                        padding: 3px 6px;
+                        border-radius: 10px;
+                        border: 1px solid white;
+                    }
+
+                    .note-label:hover {
+                        background: rgba(255, 249, 234, 0.11);
+                    }
+
+                .footer-elements-left > div {
+                    margin: 0 7px;
+                }
+
+                .footer-elements-left > div:first-child {
+                    margin-left: 0;
+                }
+
+                .footer-elements-left > div:last-child {
+                    margin-right: 0;
+                }
+
+                .footer-elements-left img {
+                }
+                
+
+
+
+
+                .footer-elements-right {}
+
+                .button-close-wrapper {}
+
+                .note-button-close {
+                    user-select: none;
+                    margin-right: 15px;
+
+                    padding: 10px 25px;
+                    border: none;
+                    border-radius: 8px;
+                    color: white;
+
+                    cursor: pointer;
+                    display: inline-block;
+                    outline: none!important;
+
+                    background: transparent;
+
+                }
+
+                .note-button-close:hover {
+                    background: rgba(255, 255, 255, 0.03);
+                }
+
+
+
+
+
+
+
+
+
+
