@@ -1,0 +1,10 @@
+#IDEA
+*idea
+build
+
+#GRADLE
+*gradle*
+*/.gitattributes
+
+#REACT
+node_modules
